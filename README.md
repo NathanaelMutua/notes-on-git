@@ -15,3 +15,4 @@ Using basic features we learnt in our teach2give training sessions, and research
 - Image styling and manipulation (**Diis Asma**)
 - Partial paragraph styling and readme.md creation (**Nathanael Mutua**)
 - Pull Management, Partial paragraph styling and page layout/background (**Halima Mohamed**)
+- I have recently done an update on the design, incorporating whatever new skills we have learnt during our most recent session.(**Nathanael Mutua**)

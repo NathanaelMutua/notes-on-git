@@ -2,16 +2,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 *{
 
-    background-color: rgb(85, 255, 255);
+    background-color: whitesmoke;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-size: 62.5%;
 }
+
+h1{
+    font-family: fantasy;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+b, i{
+    font-size: small;
+}
+
+h2{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-inline: 10%;
+    font-size: 2.5rem;
+    text-align: center;
+    border-bottom: 2px double rgb(160, 149, 20);
+    border-radius: 5px; 
+}
+
+h3{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-inline: 10%;
+    font-size: large;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(238, 232, 170);
+}
+
 img{
-border-radius: 8px;
- padding: 5px;
- width: 50%;
+    border-radius: 8px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 img:hover {
-  box-shadow: 0 0 5px 5px #4d00ba80;   
+    box-shadow: 0 0 5px 5px #4d00ba80;   
 }
 
 figcaption{
@@ -20,16 +64,16 @@ figcaption{
     text-align: center;
 }
 
-
-
 .branch p{
     /*font-family: "Comic Relief", system-ui;
     font-weight: 700px;*/
     text-align: justify;
+    font-size: small;
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 .branch ol{
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
@@ -40,7 +84,10 @@ figcaption{
     text-transform: capitalize;
     font-size: 40px;
 }
+
 code{
+    color: whitesmoke;
+    font-size: small;
     background-color: rgb(64, 185, 181);
 }
 
@@ -68,13 +115,21 @@ code{
     text-align: justify;
 }
 
-.t-list li{
+ol li{
+    list-style-type: lower-roman;
+    font-size: small;
+}
+
+ul li{
     list-style-type: circle;
+    font-size: small;
 }
 
 .s-paragraph{
     background-color: rgb(84, 84, 84);
     padding: 10px;
+    margin: 5%;
+    font-size: small;
+    text-align: center;
     color: whitesmoke;
-    border-radius: 10px;
 }
