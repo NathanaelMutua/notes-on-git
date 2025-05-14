@@ -71,3 +71,10 @@ code{
 .t-list li{
     list-style-type: circle;
 }
+
+.s-paragraph{
+    background-color: rgb(84, 84, 84);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
